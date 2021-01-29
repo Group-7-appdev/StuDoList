@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:id="@+id/eventName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Add Event"
+        android:inputType="textShortMessage"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:background="@android:color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/setEventTime"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_time"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:id="@+id/eventTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00 AM"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginEnd="50dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Event"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:padding="15dp"/>
+
+
+</LinearLayout>

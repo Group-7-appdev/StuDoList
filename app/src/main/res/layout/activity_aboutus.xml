@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5BCDC3"
+    tools:context=".Aboutus">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="80dp"
+        android:text="Group 7 App Dev"/>
+    <TextView
+        android:id="@+id/app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StuDoList"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@+id/title"/>
+
+    <TextView
+        android:id="@+id/leader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leader"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/app"/>
+    <TextView
+        android:id="@+id/leadername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:text="Michael Vincent Carpo"
+        android:layout_below="@+id/leader"/>
+    <TextView
+        android:id="@+id/designer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designer"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/leadername"/>
+    <TextView
+        android:id="@+id/designername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:text="Tiffany Mae Bagalay Gonzales"
+        android:layout_below="@+id/designer"/>
+    <TextView
+        android:id="@+id/programmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programmer"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/designername"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Ian Marvin Villar"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/programmer"/>
+</LinearLayout>
+
+
+
+</RelativeLayout>
